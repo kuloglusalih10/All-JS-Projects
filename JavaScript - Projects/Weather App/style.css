@@ -1,0 +1,32 @@
+h3{ 
+    color: white;
+}
+
+
+nav img{
+    width: 5rem;
+    height: 4rem;
+}
+
+
+button{
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+
+
+    #input{
+        flex-direction: column;
+    }
+    #location{
+        margin-bottom: 10px;
+        
+    }
+    .card-header{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}

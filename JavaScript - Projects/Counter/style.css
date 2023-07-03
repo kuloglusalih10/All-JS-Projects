@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#div{
+  
+    height: 100vh;
+}
+
+.btn{
+    margin-top: 15;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+h3{
+    
+    margin-top: 15px;
+    margin-bottom: 25px;
+}

@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.myNav{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    height: 4rem;
+    padding: 0px 1rem;
+    color: white;
+}
+
+.myLinks{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 26rem;
+    transition: 0.5s;
+}
+a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: darkgrey;
+    display: block;
+    cursor: pointer;
+
+}
+h2{
+    margin-top: 0.7rem;
+    cursor: pointer;
+}
+
+h2:hover{
+   
+    color: chartreuse;
+
+}
+
+#myNavButton{
+    
+    display: none;
+    transition: 0.5s;
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+    right: 0.8rem;
+    top: 0.7rem;
+
+
+}
+
+@media screen and (max-width:576px){
+
+
+
+    #myNavButton:hover{
+        color: chartreuse;
+        transform: rotate(180deg);
+    }
+    .myNav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        
+    }
+
+    .myLinksOpen{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        transition: 0.5s;
+
+    }
+
+    .myLinks{
+        display: none;
+    }
+    #myNavButton{
+        display: block  ;
+        font-size: 1.7rem;
+        color: white;
+        transition: 0.5s;
+
+    }
+    
+
+}
+

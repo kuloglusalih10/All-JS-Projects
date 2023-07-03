@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+img{
+    width: 20vw;
+    height: 30vh;
+}
+
+
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i{
+
+    font-size: 25px;
+
+}
+
+.progre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.times{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.volumeController{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#first-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
